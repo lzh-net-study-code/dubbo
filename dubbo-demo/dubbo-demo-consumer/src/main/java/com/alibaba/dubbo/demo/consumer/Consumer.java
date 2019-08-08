@@ -33,7 +33,7 @@ public class Consumer {
             try {
                 Thread.sleep(1000);
                 String hello = demoService.sayHello("world"); // call remote method
-                System.out.println(hello); // get result
+                System.out.println(hello +" 111"); // get result
 
             } catch (Throwable throwable) {
                 throwable.printStackTrace();
